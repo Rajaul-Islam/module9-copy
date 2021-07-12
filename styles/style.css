@@ -173,3 +173,14 @@ Height:11.81px;
       
    
  }
+
+ /* tablet devices */
+ @media only screen and (min-width: 688px) and (max-width: 992px){
+     
+  .players{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container{
+    width: 100%;
+}
+ }
